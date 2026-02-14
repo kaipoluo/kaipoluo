@@ -12,5 +12,5 @@
 
 
 <div align="center">
-    <img src="image/30.2.png" style="width: 300px; height: auto;  margin-top: 20px;" alt="Profile Picture" />
+    <img src="image/30.2.png" style="width: 50%; height: auto;  margin-top: 20px;" alt="Profile Picture" />
   <p>⭐️ 感谢访问我的GitHub主页！</p></div>
