@@ -1,6 +1,6 @@
-<!-- 背景图片设置 -->
-<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; opacity: 0.4;">
-  <img src="image/1.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Background" />
+<!-- 顶部横幅（招牌） -->
+<div align="center">
+  <img src="image/1.png" style="width: 100%; height: auto; max-height: 200px; object-fit: cover; border-radius: 10px;" alt="Banner" />
 </div>
 
 <div align="left">
@@ -12,5 +12,5 @@
 
 
 <div align="center">
-    <img src="image/30.jpg" style="width: 200px; height: 200px; border-radius: 90%; margin-top: 20px;" alt="Profile Picture" />
+    <img src="image/30.2.png" style="width: 300px; height: auto;  margin-top: 20px;" alt="Profile Picture" />
   <p>⭐️ 感谢访问我的GitHub主页！</p></div>
