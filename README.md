@@ -1,13 +1,14 @@
-<!-- 页面顶级容器 -->
-<div style="position: relative; width: 100%;">
+<!-- Flexbox布局容器 -->
+<div style="display: flex; flex-wrap: nowrap; width: 100%;">
   
-  <!-- 访问量统计-->
-
-   <img align="right" src="https://count.getloli.com/get/@:3546686175?theme=rule34">
-
-  <!-- 打字动画 -->
-  <div style="margin: 10px; margin-right: 150px;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=kaipoluo" style="width: 100%; height: auto; max-height: 60px;" alt="Typing Animation" />
+  <!-- 打字动画 - 左侧 -->
+  <div style="flex: center center 50%; padding-right: 10px; padding-top: 30%;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=kaipoluo" style="width: 100%; height: auto;" alt="Typing Animation" />
+  </div>
+  
+  <!-- 访问量统计 - 右侧 -->
+  <div style="flex: 0 0 50%;">
+    <img src="https://count.getloli.com/get/@:3546686175?theme=rule34" style="width: 100%; height: auto;" alt="Visitor Count" />
   </div>
   
 </div>
