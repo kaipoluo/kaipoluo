@@ -11,5 +11,8 @@
   <img src="image/30.2.png" style="width: 100%; height: auto; border-radius: 8px;" alt="Mikasa" />
 </div>
 
-
+## 📕 Latest Blog Posts
+ 
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
   
