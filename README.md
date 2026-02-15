@@ -1,12 +1,12 @@
-<!-- 固定并排布局容器 -->
-<div style="display: flex; justify-content: space-between; align-items: center; margin: 10px 0; width: 100%;">
+<!-- 相对定位容器 -->
+<div style="position: relative; margin: 10px 0; width: 100%;">
   <!-- 打字动画 -->
-  <div style="flex: 1; margin-right: 5px; min-width: 0;">
+  <div style="margin-right: 120px; min-width: 0;">
     <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=kaipoluo:Change+Better!" style="width: 100%; height: auto; max-height: 50px; object-fit: contain;" alt="Typing Animation" />
   </div>
-  <!-- 访问量统计 -->
-  <div style="flex: 0 0 auto; min-width: 80px;">
-    <img src="https://count.getloli.com/get/@:3546686175?theme=rule34" style="width: 100%; height: auto; max-width: 100px; max-height: 50px; object-fit: contain;" alt="Visitor Count" />
+  <!-- 访问量统计 - 右上角 -->
+  <div style="position: absolute; top: 0; right: 0; width: 100px;">
+    <img src="https://count.getloli.com/get/@:3546686175?theme=rule34" style="width: 100%; height: auto; max-height: 50px; object-fit: contain;" alt="Visitor Count" />
   </div>
 </div>
 
