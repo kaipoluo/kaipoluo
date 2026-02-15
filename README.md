@@ -2,7 +2,7 @@
 <div style="display: flex; flex-wrap: nowrap; width: 100%;">
   
   <!-- 打字动画 - 左侧 -->
-  <div style="flex: center center 50%; padding-right: 10px; padding-top: 30%;">
+  <div style="flex: 0 0 50%; padding-right: 10px;" display="flex"; justify-content="center"; align-items="center;">
     <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=kaipoluo" style="width: 100%; height: auto;" alt="Typing Animation" />
   </div>
   
