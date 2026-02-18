@@ -14,5 +14,10 @@
 ## 📕🤣 Latest Blog Posts
  
 <!-- BLOG-POST-LIST:START -->
+- [数据结构课设“迷宫求解“](https://blog.csdn.net/Kaipoluo/article/details/149047056)
+- [C++错题积累&lpar;日记&rpar;](https://blog.csdn.net/Kaipoluo/article/details/148064495)
+- [Linux &amp; ROS2 常用命令](https://blog.csdn.net/Kaipoluo/article/details/148437295)
+- [约瑟夫环问题/转圈报数问题](https://blog.csdn.net/Kaipoluo/article/details/145969644)
+- [解决GitHub难访问造成Arduino无法直接安装STM32/ESP32安装包的方法](https://blog.csdn.net/Kaipoluo/article/details/145664626)
 <!-- BLOG-POST-LIST:END -->
   
