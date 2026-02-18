@@ -1,18 +1,28 @@
 name: Latest blog post workflow
 on:
   schedule:
-    - cron: '* 2 * * *'
-  workflow_dispatch:
+    # 改为每小时的第0分钟执行（比如 0点0分、1点0分、2点0分...）
+    - cron: '0 * * * *'
+  workflow_dispatch: # 保留手动触发
 
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
+    permissions:
+      # 显式授予读写仓库的权限（关键）
+      contents: write
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          ref: main # 主分支，若为master则改为master
+          fetch-depth: 0 # 拉取完整历史避免冲突
+          
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          # 我的博客 RSS 链接
           feed_list: "https://rss.csdn.net/Kaipoluo/rss/map?spm=1001.2014.3001.5494"
-          # 获取最新 10 篇文章
           max_post_count: 10
+          commit_message: "docs: update latest blog posts (hourly)" # 标注小时更新
+          committer_username: "github-actions[bot]"
+          committer_email: "github-actions[bot]@users.noreply.github.com"
+          target_branch: "main" # 主分支，若为master则改为master
